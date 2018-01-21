@@ -10,8 +10,10 @@ Run the `entertainment_center.py` script. This should open a HTML page in your d
 ## Code
 The file `media.py` has the **Movie** class.
 
-In order to add more movies to the HTML page you need to create a new **Movie** object as below : 
-`toy_story = media.Movie("Toy Story","A story about a boy and his toys which come to life","https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg","https://www.youtube.com/watch?v=KYz2wyBy3kc")`
+In order to add more movies to the HTML page you need to create a new **Movie** object as below:
+```python
+toy_story = media.Movie("Toy Story","A story about a boy and his toys which come to life","https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg","https://www.youtube.com/watch?v=KYz2wyBy3kc")
+```
 
 Update the list of movies in `entertainment_center.py` to include this new object.
 
